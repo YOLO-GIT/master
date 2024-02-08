@@ -1,0 +1,310 @@
+@charset "utf-8";
+
+/* CSS Document */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+#wrapper {
+  width: 100%;
+  max-width: 100%;
+}
+
+#nav {
+  float: center;
+  width: 990;
+  padding-bottom: 100px;
+  margin-left: 400px;
+}
+
+#main {
+  clear: both;
+}
+
+.form_1 {
+  position: absolute;
+  top: 430px;
+  left: 415px;
+  font-size: 20px;
+  width: 727px;
+  height: 238px;
+  text-align: left;
+  float: center;
+}
+
+.form_2 {
+  position: absolute;
+  top: 432px;
+  left: 350px;
+  font-size: 20px;
+  width: 788px;
+  height: 280px;
+}
+
+.form_3 {
+  position: absolute;
+  top: 278px;
+  left: 284px;
+  font-size: 20px;
+  width: 288px;
+}
+
+.form_4 {
+  position: absolute;
+  top: 220px;
+  left: 580px;
+  font-size: 20px;
+  height: 24px;
+  width: 365px;
+}
+
+.form_5 {
+  position: absolute;
+  top: 290px;
+  right: 165px;
+  font-size: 20px;
+  height: 43px;
+  width: 312px;
+}
+
+.form_6 {
+  position: absolute;
+  top: 248px;
+  right: 236px;
+  font-size: 20px;
+  height: 43px;
+  width: 241px;
+}
+
+.form_box_1 {
+  width: 150;
+  height: 150;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  background: yellow;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+/* li {
+  color: #020f14;
+  background: #6db6d1;
+  display: block;
+  width: 160px;
+  float: left;
+  padding: 1rem;
+  position: relative;
+  text-decoration: none;
+  transition-duration: 0.5s;
+} */
+
+li a {
+  color: black;
+}
+
+/* li:hover {
+  background: #4270f3;
+  cursor: pointer;
+} */
+
+ul li ul {
+  visibility: hidden;
+  position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+  left: 0;
+  display: none;
+}
+
+ul li:hover>ul,
+ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+  width: 160px;
+}
+
+ul li ul li {
+  clear: both;
+  width: 100%;
+}
+
+.highlight {
+  color: red;
+}
+
+.p {
+  float: center;
+  width: 990;
+  padding-bottom: 100px;
+  margin-left: 500px;
+}
+
+.nama {
+  position: absolute;
+  font-size: 25px;
+  bottom: 476px;
+  left: 408px;
+  width: 92px;
+  height: 45px;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 10px;
+  right: 30px;
+}
+
+.second-cloud {
+  position: absolute;
+  left: 0;
+  bottom: 30px;
+}
+
+#top-container {
+  background-color: #55a0bc;
+  border: rgb(8, 70, 185);
+  border-width: 5px;
+  position: relative;
+  padding: 40px;
+}
+
+h1 {
+  color: white;
+  font-size: 3em;
+  margin-top: 0%;
+  text-align: center;
+}
+
+.login-form {
+  position: absolute;
+  top: 452px;
+  left: 257px;
+  height: 165px;
+  float: center;
+}
+
+.button-tekan {
+  position: relative;
+  top: 28px;
+  left: 1px;
+  height: 25px;
+  width: 120px;
+}
+
+.button-tekan-1 {
+  position: absolute;
+  bottom: 34px;
+  right: 85px;
+  width: 120px;
+  height: 49px;
+  background: cornflowerblue;
+  border-radius: 100px / 50px;
+  text-decoration: underline;
+}
+
+.button-tekan2 {
+  position: relative;
+  top: 28px;
+  left: 1px;
+  height: 25px;
+  width: 120px;
+}
+
+.label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.button-tekan3 {
+  position: relative;
+  top: 28px;
+  left: 1px;
+  height: 25px;
+  width: 120px;
+}
+
+.imej1 {
+  position: absolute;
+  bottom: 148px;
+  right: 215px;
+  width: 200px;
+  height: 190px;
+}
+
+#header-container h1 {
+  text-align: right;
+  margin: 10;
+}
+
+#header-container img {
+  justify-self: right;
+  width: 100px;
+  height: 100px;
+}
+
+.main-shape {
+  position: relative;
+  left: 200px;
+}
+
+.top-text {
+  font-size: 19px;
+}
+
+.top-rec {
+  position: absolute;
+  background: #3ebcc6;
+  border: 2px solid black;
+  border-radius: 25px;
+  padding: 80px;
+  width: 300px;
+  height: 10px;
+  top: 60px;
+  left: 180px;
+}
+
+form {
+  text-align: center;
+  margin-left: 50px;
+  font-size: 20px;
+}
+
+select {
+  position: absolute;
+  bottom: 147px;
+  left: 480px;
+  width: 220px;
+  height: 24px;
+  font-size-adjust: 50px;
+}
+
+p2 {
+  margin-bottom: 50px;
+}
+
+label {
+  color: black;
+  font-size-adjust: 100px;
+}
+
+#footer {
+  /* position: absolute; */
+  text-align: center;
+  background-color: #55a0bc;
+  color: white;
+  /* padding: 2px; */
+  width: 100%;
+  height: 100px;
+  left: 0px;
+  /* Footer height */
+}
