@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>SISTEM TEMPAHAN KENDERAAN KKPB DAN KKCM</title>
+
+  <link href="../tempahanstyle.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="../src/output.css">
+</head>
+
+<body>
+  <div id="top-container">
+    <img src="../img/kolej.png" width="436" height="159" alt="" />
+    <img src="../img/logo kolej.png" width="608" height="158" long="100" alt="" />
+    <h1>SISTEM TEMPAHAN KENDERAAN KKPB DAN KKCM</h1>
+  </div>
+
+  <div id="nav">
+    <ul>
+      <li><a href="info.html"></a> info</li>
+      <li><a href="gallery.html"></a>Gallery</li>
+      <li><a href="borang_tempahan.html"></a>Borang Tempahan</li>
+      <li><a href="About us.html"></a>About Us</li>
+    </ul>
+  </div>
+  <div class="form_2">
+    <p>
+      <label for="username"><strong>Nama pemohon :</strong></label>
+      <input class="form_box_1" type="text" name="username" required />
+      <br />
+      <label for="password"><strong>Bilangan penumpang :</strong></label>
+      <input class="form_box_1" type="password" name="password" required />
+      <br />
+
+      <label for="password"><strong>tarikh tempah :</strong></label>
+      <input type="text" id="txtDate" name="SelectedDate" readonly="readonly" />
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js" type="text/javascript"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js" type="text/javascript"></script>
+      <link href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="Stylesheet"
+        type="text/css" />
+      <script type="text/javascript">
+        $(function () {
+          $("#txtDate").datepicker({
+            showOn: "button",
+            buttonImageOnly: true,
+            dateFormat: "dd/mm/yy",
+          });
+        });
+      </script>
+    </p>
+
+    <p>
+      <strong>Pilihan Kenderaan:</strong>
+      <select name="car">
+        <option value="bas">Bas</option>
+        <option value="kereta">Kereta</option>
+        <option value="van">Van</option>
+      </select>
+      <br />
+      <label for="username"><strong>Tujuan:</strong></label>
+
+      <input class="form_box_1" type="text" name="username" required />
+      <br />
+      <input class="button-tekan" type="Submit" value="SUBMIT" name="Confrim" id="submit" />
+    </p>
+  </div>
+
+  <div id="content-wrap">
+    <footer id="footer"></footer>
+  </div>
+</body>
+
+</html>
