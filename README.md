@@ -1,3 +1,6 @@
 ## STK Template 🤑🤑🤑
 
-![GIF](./img/giga-gigacat.gif)
+<p align='center'>
+  <img src='./img/giga-gigacat.gif' alt='GIF'>
+</p>
+
