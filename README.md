@@ -1,14 +1,15 @@
 ## STK Template 🤑🤑🤑
 
-## <p align='center'>
-
+<p align='center'>
   <img src='./img/giga-gigacat.gif' alt='GIF'>
 </p>
 
+##
+
 <p align='center'>
-<em>
-    Gigacat Momentos
-</em>
+  <em>
+      Gigacat Momentos
+  </em>
 </p>
 
 ## INTRODUCTION
@@ -25,7 +26,7 @@ git clone me: https://github.com/YOLO-GIT/master.git
 
 ## CREDIT
 
-- S U G M A 
+- S U G M A
 
 ## LICENSE
 
