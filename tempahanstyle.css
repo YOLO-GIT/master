@@ -315,3 +315,10 @@ label {
   z-index: -1;
   opacity: 0.5;
 }
+
+.login-container {
+  background-image: url('');
+  /* Replace 'your-image-url.jpg' with the URL of your image */
+  background-size: cover;
+  background-position: left;
+}
