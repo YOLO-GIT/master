@@ -279,14 +279,14 @@ form {
   font-size: 20px;
 }
 
-select {
+/* select {
   position: absolute;
   bottom: 147px;
   left: 480px;
   width: 220px;
   height: 24px;
   font-size-adjust: 50px;
-}
+} */
 
 p2 {
   margin-bottom: 50px;
