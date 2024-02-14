@@ -322,3 +322,45 @@ label {
   background-size: cover;
   background-position: left;
 }
+
+/* Add this CSS to your existing CSS file or create a new one */
+/* Background Gradient */
+.background-animate {
+  background: linear-gradient(to right, #48bb78, #4299e1);
+}
+
+.background-animate {
+  background-size: 400%;
+
+  -webkit-animation: AnimationName 5s ease infinite;
+  -moz-animation: AnimationName 5s ease infinite;
+  animation: AnimationName 5s ease infinite;
+}
+
+@keyframes AnimationName {
+
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+/* Typography */
+.about-heading {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+/* Spacing */
+.about-content {
+  padding: 4rem 0;
+}
+
+/* Text Color */
+.about-content p {
+  color: #fff;
+}
