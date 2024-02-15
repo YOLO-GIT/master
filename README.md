@@ -4,13 +4,15 @@
   <img src='./img/giga-gigacat.gif' alt='GIF'>
 </p>
 
-##
+#
 
 <p align='center'>
   <em>
       Gigacat Momentos
   </em>
 </p>
+
+#
 
 ## INTRODUCTION
 
@@ -26,8 +28,8 @@ git clone me: https://github.com/YOLO-GIT/master.git
 
 ## CREDIT
 
-- S U G M A
+- S U G M A (Mat Ajim)
 
 ## LICENSE
 
-- no, I guess... IDK 😴
+- This project is licensed under the [MIT License](LICENSE.md) - see the [LICENSE.md](LICENSE.md) file for details.
