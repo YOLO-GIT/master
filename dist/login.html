@@ -2,111 +2,56 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="../tempahanstyle.css" rel="stylesheet" type="text/css">
-  <link href="../src/output.css" rel="stylesheet">
-  <title>SISTEM TEMPAHAN KENDERAAN KKPB DAN KKCM</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DrivePBT</title>
+  <link href="../tempahanstyle.css" rel="stylesheet" type="text/css" />
+  <link href="../src/output.css" rel="stylesheet" />
 </head>
 
-<body>
-  <!-- Item First -->
-  <div id="top-container">
-    <img src="../img/download.jpg"
-      class="w-500 h-500 mx-auto mb-3 rounded-lg hover:scale-105 ease-in-out duration-500 hover:shadow-lg" alt="" />
-    <img src="../img/logo kolej.png" class="w-608 h-158 mx-auto" alt="" />
-    <h1 class="font-bold italic text-white mt-3">
-      SISTEM TEMPAHAN KENDERAAN KKPB DAN KKCM
-    </h1>
-  </div>
-
+<body class="bg-gray-50 dark:bg-gray-900 flex flex-col min-h-screen">
   <!-- Login -->
-  <section class="bg-gray-50 dark:bg-gray-900">
-    <div class="container h-full p-10 mx-auto">
-      <div class="g-6 flex h-full flex-wrap items-center justify-center text-neutral-800 dark:text-neutral-200">
-        <div class="w-full">
-          <div class="block rounded-lg bg-white shadow-lg dark:bg-gray-800 dark:border-gray-700 login-container">
-            <div class="g-0 lg:flex lg:flex-wrap">
-              <div class="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
-                <a href="#" class="flex items-center sm:mb-6 text-2xl font-semibold text-gray-900 dark:text-white">
-                  <img class="w-8 h-8 mr-2" src="../img/sport-car.png" alt="logo">
-                  STK
-                </a>
-                <div class="w-full bg-white rounded-lg shadow md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800">
-                  <div class="p-6 space-y-4 md:space-y-6 sm:p-8">
-                    <h1
-                      class="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">
-                      Sign in to your account
-                    </h1>
-                    <form class="mx-auto space-y-4 md:space-y-6" action="login_success.html">
-                      <div>
-                        <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your
-                          email</label>
-                        <input type="email" name="email" id="email"
-                          class="bg-gray-50 border border-gray-300 text-gray-900 text-xs sm:text-sm rounded-lg focus:ring-blue-600 focus:border-blue-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                          placeholder="name@company.com" required="">
-                      </div>
-                      <div>
-                        <label for="password"
-                          class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Password</label>
-                        <input type="password" name="password" id="password" placeholder="••••••••"
-                          class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-600 focus:border-blue-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                          required="">
-                      </div>
-                      <div class="flex items-center justify-between">
-                        <div class="flex items-start">
-                          <div class="flex items-center h-5">
-                            <input id="remember" aria-describedby="remember" type="checkbox"
-                              class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800"
-                              required="">
-                          </div>
-                          <div class="ml-2 mt-0.5 text-xs sm:text-sm sm:ml-3 sm:mt-0">
-                            <label for="remember"
-                              class="text-gray-500 dark:text-gray-300 text-left sm:text-center">Remember me</label>
-                          </div>
-                        </div>
-                        <a href="#"
-                          class="text-xs sm:text-sm font-medium text-blue-600 hover:underline dark:text-blue-500">Forgot
-                          password?</a>
-                      </div>
-                      <button type="submit"
-                        class="w-full text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Sign
-                        in</button>
-                      <p class="text-xs font-light text-gray-500 dark:text-gray-400 sm:text-sm">
-                        Don’t have an account yet? <a href="register.html"
-                          class="font-medium text-blue-600 hover:underline dark:text-blue-500">Sign up</a>
-                      </p>
-                    </form>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Right column container with background and description-->
-              <div
-                class="flex items-center bg-gradient-to-r from-green-500 to-blue-500 rounded-b-lg lg:w-6/12 lg:rounded-r-lg lg:rounded-bl-none">
-                <div class="px-4 py-6 text-white md:mx-6 md:p-12">
-                  <h4 class="mb-6 text-xl font-semibold">
-                    We are more than just a company
-                  </h4>
-                  <p class="text-sm">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing
-                    elit, sed do eiusmod tempor incnameidunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis
-                    nostrud exercitation ullamco laboris nisi ut aliquip ex
-                    ea commodo consequat.
-                  </p>
-                </div>
-              </div>
+  <section class="bg-gray-50 dark:bg-gray-900 mt-10">
+    <div class="flex flex-col items-center justify-center px-6 py-8 h-screen md:h-full lg:py-0">
+      <div
+        class="w-full bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
+        <div class="p-6 space-y-4 md:space-y-6 sm:p-8">
+          <h1 class="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">
+            Create an account
+          </h1>
+          <form class="space-y-4 mx-auto md:space-y-6" action="success.html">
+            <div>
+              <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your
+                email</label>
+              <input type="email" name="email" id="email"
+                class="bg-gray-50 border border-gray-300 text-gray-900 text-xs sm:text-sm rounded-lg focus:ring-blue-600 focus:border-blue-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                placeholder="name@company.com" required="" />
             </div>
-          </div>
+            <div>
+              <label for="password"
+                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Password</label>
+              <input type="password" name="password" id="password" placeholder="••••••••"
+                class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-600 focus:border-blue-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                required="" />
+            </div>
+            <button type="submit"
+              class="w-full text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              onclick="return confirm('Adakah anda pasti untuk menyimpan data ini?')">
+              Masuk
+            </button>
+            <p class="text-sm font-light text-gray-500 dark:text-gray-400">
+              Mendaftar akaun baharu?
+              <a href="register.html" class="font-medium text-blue-600 hover:underline dark:text-blue-500">Daftar
+                disini</a>
+            </p>
+          </form>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Footer -->
-  <footer class="bg-gray-100 dark:bg-gray-800 text-black dark:text-white py-8">
-    <div class="flex flex-wrap justify-between sm:max-w-6xl mx-auto p-5 text-center sm:text-left sm:items-center sm:p-0">
+  <footer class="bg-gray-100 dark:bg-gray-800 text-black dark:text-white py-8 mt-auto">
+    <div class="flex flex-row justify-between sm:max-w-6xl mx-auto text-center sm:text-left sm:items-center sm:p-0">
       <p class="text-lg font-mono">Tel: +60 34142008</p>
       <p class="text-lg font-mono"><a href="berjayalog_out.html">Logging Out</a></p>
       <p class="text-lg font-mono">Whatapps: +60145006684</p>
